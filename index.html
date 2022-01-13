@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>My Portfolio | Anang Aprilyanto</title>
+  </head>
+
+  <body id="home">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top"
+      style="background-color: #2780aa"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Introduce</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir navbar -->
+
+    <!-- Jumbotron bootstrap v5 -->
+    <section class="jumbotron text-center">
+      <!-- compress gambar dapat menggunakan squoosh.app/editor -->
+      <img src="img/img1.png" alt="anang_apri" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4 mt-3 fw-bold" style="color: white">Anang Aprilyanto</h1>
+      <p class="lead" style="color: white">Web developer | Video Editor</p>
+      <!-- membuat garis bergelombang dgn https://getwaves.io/-->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,224L48,224C96,224,192,224,288,202.7C384,181,480,139,576,128C672,117,768,139,864,160C960,181,1056,203,1152,192C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir jumbotron -->
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <h2>About</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-sm-5 mt-3" style="text-align: justify">
+            <p>
+              Perkenalkan, nama saya Anang Aprilyanto, saya berusia 23th. Saya merupakan Fresh
+              Graduate, lulusan S1 Teknik Informatika di Universitas Kristen Satya Wacana.
+              Konsentrasi saat saya berkuliah yaitu Application Development. Keahlian saya di IT
+              cenderung ke Web Development, saya sangat menyukai bahasa pemrograman Javascript, Php,
+              HTML, CSS. Keahlian lain yang saya miliki yaitu Editing Video dan mengoprasikan
+              Microsoft Office.
+            </p>
+          </div>
+          <div class="col-sm-5 mt-3" style="text-align: justify">
+            <p>
+              Pengalaman kerja saya sebagai IT Intern telah memberi saya keahlian yang luas dalam
+              Penelitian dan pengembangan. Saat ini saya sedang mencari pekerjaan, saya siap belajar
+              dengan cepat dan bekerja keras. Untuk mengetahui saya lebih jelas, dapat menghubungi
+              saya dengan form contact yang disediakan dibawah.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,96L60,85.3C120,75,240,53,360,69.3C480,85,600,139,720,154.7C840,171,960,149,1080,133.3C1200,117,1320,107,1380,101.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir about -->
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>My Project</h2>
+            <hr />
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-4 mt-3 mb-3">
+            <!-- pake lightbox agar membesar -->
+            <div class="card">
+              <img src="img/Port/1.png" class="card-img-top" alt="Project1" />
+              <div class="card-body" style="text-align: justify">
+                <p class="card-text">
+                  Project kerja praktek membuat website di fakultas Teknologi Informasi UKSW untuk
+                  menginput poin mahasiswa dari kegiatan kemahasiswaan dengan Laravel, Php
+                  Javascript, dan Mysql.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mb-3">
+            <!-- pake lightbox agar membesar -->
+            <div class="card">
+              <img src="img/Port/2.png" class="card-img-top" alt="Project2" />
+              <div class="card-body" style="text-align: justify">
+                <p class="card-text">
+                  Project Skripsi aplikasi mobile berjudul Lagu tradisional Suku Ketengban. Ini
+                  merupakan aplikasi musik ofline. Tampilan yang sederhana, dan menggunakan bahasa
+                  pemrograman Dart.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mb-3">
+            <!-- pake lightbox agar membesar -->
+            <div class="card">
+              <img src="img/Port/3.png" class="card-img-top" alt="Project3" />
+              <div class="card-body" style="text-align: justify">
+                <p class="card-text">
+                  Project ini adalah aplikasi musik ofline berjudul Lagu Adat Suku Ngalum. Bahasa
+                  pemrograman yang saya pakai yaitu java. Dan ini adalah aplikasi yang sangat
+                  sederhana.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mb-3">
+            <!-- pake lightbox agar membesar -->
+            <div class="card">
+              <img src="img/Port/4.png" class="card-img-top" alt="Project4" />
+              <div class="card-body" style="text-align: justify">
+                <p class="card-text">
+                  Aplikasi mobile tentang playlist musik menggunakan bahasa pemrograman Dart dengan
+                  Framework Flutter.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mb-3">
+            <!-- pake lightbox agar membesar -->
+            <div class="card">
+              <img src="img/Port/3.png" class="card-img-top" alt="Project5" />
+              <div class="card-body" style="text-align: justify">
+                <p class="card-text">
+                  Ini adalah website rental VCD, menggunakan laravel menggunakan bahasa pemrograman
+                  PHP, Javascript, Mysql.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,288L80,266.7C160,245,320,203,480,192C640,181,800,203,960,208C1120,213,1280,203,1360,197.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir portfolio -->
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact Me</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-6">
+            <form>
+              <div class="mb-3 mt-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#333"
+          fill-opacity="1"
+          d="M0,64L80,58.7C160,53,320,43,480,69.3C640,96,800,160,960,165.3C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir contact -->
+
+    <!-- Footer -->
+    <footer class="text-center pb-4" style="background-color: #333">
+      <p>
+        &copy; copyright 2022 | Created by.
+        <i class="bi bi-instagram" style="background-color: indigo"></i>
+        <a href="https://www.instagram.com/anang_apri/" class="text-white fw-bold"
+          >Anang Aprilyanto.</a
+        >
+      </p>
+    </footer>
+    <!-- Akhir footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

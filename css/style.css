@@ -1,0 +1,34 @@
+html {
+  position: relative;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-image: url("../img/b7.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -160px;
+}
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+  width: 200px;
+  border-top: 3px solid #999;
+  margin: auto;
+}
+
+.portfolio {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+footer p {
+  color: #aaa;
+  font-size: 0.9em;
+}
