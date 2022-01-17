@@ -17,6 +17,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
     />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css" />
@@ -66,9 +68,9 @@
     <!-- Jumbotron bootstrap v5 -->
     <section class="jumbotron text-center">
       <!-- compress gambar dapat menggunakan squoosh.app/editor -->
-      <img src="img/img1.png" alt="anang_apri" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/1.png" alt="anang_apri" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4 mt-3 fw-bold" style="color: white">Anang Aprilyanto</h1>
-      <p class="lead" style="color: white">Web developer | Video Editor</p>
+      <p class="lead" style="color: white"></p>
       <!-- membuat garis bergelombang dgn https://getwaves.io/-->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -90,9 +92,14 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-sm-5 mt-3" style="text-align: justify">
-            <p>
-              Perkenalkan, nama saya Anang Aprilyanto, saya berusia 23th. Saya merupakan Fresh
+          <div
+            class="col-sm-5 mt-3"
+            style="text-align: justify"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+              &emsp;Perkenalkan, nama saya Anang Aprilyanto, saya berusia 23th. Saya merupakan Fresh
               Graduate, lulusan S1 Teknik Informatika di Universitas Kristen Satya Wacana.
               Konsentrasi saat saya berkuliah yaitu Application Development. Keahlian saya di IT
               cenderung ke Web Development, saya sangat menyukai bahasa pemrograman Javascript, Php,
@@ -100,12 +107,18 @@
               Microsoft Office.
             </p>
           </div>
-          <div class="col-sm-5 mt-3" style="text-align: justify">
-            <p>
-              Pengalaman kerja saya sebagai IT Intern telah memberi saya keahlian yang luas dalam
-              Penelitian dan pengembangan. Saat ini saya sedang mencari pekerjaan, saya siap belajar
-              dengan cepat dan bekerja keras. Untuk mengetahui saya lebih jelas, dapat menghubungi
-              saya dengan form contact yang disediakan dibawah.
+          <div
+            class="col-sm-5 mt-3"
+            style="text-align: justify"
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+              &emsp;Pengalaman kerja saya sebagai IT Intern telah memberi saya keahlian yang luas
+              dalam Penelitian dan pengembangan. Saat ini saya sedang mencari pekerjaan, saya siap
+              belajar dengan cepat dan bekerja keras. Untuk mengetahui saya lebih jelas, dapat
+              menghubungi saya dengan form contact yang disediakan dibawah.
             </p>
           </div>
         </div>
@@ -133,65 +146,69 @@
         <div class="row justify-content-center">
           <div class="col-md-4 mt-3 mb-3">
             <!-- pake lightbox agar membesar -->
-            <div class="card">
-              <img src="img/Port/1.png" class="card-img-top" alt="Project1" />
-              <div class="card-body" style="text-align: justify">
-                <p class="card-text">
-                  Project kerja praktek membuat website di fakultas Teknologi Informasi UKSW untuk
-                  menginput poin mahasiswa dari kegiatan kemahasiswaan dengan Laravel, Php
-                  Javascript, dan Mysql.
-                </p>
-              </div>
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+              <a href="https://www.google.com/" target="_blank">
+                <img src="img/Port/1.png" class="card-img-top img-fluid" alt="Project1" />
+                <div class="card-body" style="text-align: justify">
+                  <p class="card-text">
+                    Website kemahasiswaan dalam kegiatan input point mahasiswa, dengan Framework PHP
+                    yaitu Laravel.
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
           <div class="col-md-4 mt-3 mb-3">
             <!-- pake lightbox agar membesar -->
-            <div class="card">
-              <img src="img/Port/2.png" class="card-img-top" alt="Project2" />
-              <div class="card-body" style="text-align: justify">
-                <p class="card-text">
-                  Project Skripsi aplikasi mobile berjudul Lagu tradisional Suku Ketengban. Ini
-                  merupakan aplikasi musik ofline. Tampilan yang sederhana, dan menggunakan bahasa
-                  pemrograman Dart.
-                </p>
-              </div>
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+              <a href="https://www.google.com/" target="_blank">
+                <img src="img/Port/2.png" class="card-img-top img-fluid" alt="Project2" />
+                <div class="card-body" style="text-align: justify">
+                  <p class="card-text">
+                    Aplikasi mobile berjudul Lagu tradisional. Ini merupakan aplikasi musik ofline.
+                    Tampilan yang sederhana, dan menggunakan bahasa pemrograman Dart.
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
           <div class="col-md-4 mt-3 mb-3">
             <!-- pake lightbox agar membesar -->
-            <div class="card">
-              <img src="img/Port/3.png" class="card-img-top" alt="Project3" />
-              <div class="card-body" style="text-align: justify">
-                <p class="card-text">
-                  Project ini adalah aplikasi musik ofline berjudul Lagu Adat Suku Ngalum. Bahasa
-                  pemrograman yang saya pakai yaitu java. Dan ini adalah aplikasi yang sangat
-                  sederhana.
-                </p>
-              </div>
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+              <a href="https://www.google.com/" target="_blank">
+                <img src="img/Port/3.png" class="card-img-top img-fluid" alt="Project3" />
+                <div class="card-body" style="text-align: justify">
+                  <p class="card-text">
+                    Aplikasi mobile sederhana ini adalah aplikasi musik ofline berjudul Lagu Adat.
+                    Bahasa pemrograman yaitu java.
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
           <div class="col-md-4 mt-3 mb-3">
             <!-- pake lightbox agar membesar -->
-            <div class="card">
-              <img src="img/Port/4.png" class="card-img-top" alt="Project4" />
-              <div class="card-body" style="text-align: justify">
-                <p class="card-text">
-                  Aplikasi mobile tentang playlist musik menggunakan bahasa pemrograman Dart dengan
-                  Framework Flutter.
-                </p>
-              </div>
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+              <a href="https://www.google.com/" target="_blank">
+                <img src="img/Port/4.png" class="card-img-top img-fluid" alt="Project4" />
+                <div class="card-body" style="text-align: justify">
+                  <p class="card-text">
+                    Aplikasi mobile tentang playlist musik menggunakan bahasa pemrograman Dart
+                    dengan Framework Flutter.
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
           <div class="col-md-4 mt-3 mb-3">
             <!-- pake lightbox agar membesar -->
-            <div class="card">
-              <img src="img/Port/3.png" class="card-img-top" alt="Project5" />
-              <div class="card-body" style="text-align: justify">
-                <p class="card-text">
-                  Ini adalah website rental VCD, menggunakan laravel menggunakan bahasa pemrograman
-                  PHP, Javascript, Mysql.
-                </p>
-              </div>
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="500">
+              <a href="https://www.google.com/" target="_blank">
+                <img src="img/Port/4.png" class="card-img-top img-fluid" alt="Project5" />
+                <div class="card-body" style="text-align: justify">
+                  <p class="card-text">Masih kosong</p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -294,6 +311,34 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!-- Plugin text GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Web developer | Video Editor" });
+      gsap.from(".jumbotron img", { duration: 1, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
+      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
+    </script>
+
+    <!-- vanila-tilt.js -->
+    <script type="text/javascript" src="javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+      });
+    </script>
 
     <script>
       const scriptURL =
